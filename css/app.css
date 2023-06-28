@@ -1,0 +1,121 @@
+header {
+    max-width: 1728px;
+    width: 100%;
+    height: 158px;
+    background-color: #000;
+}
+
+.header-container {
+    max-width: 1500px;
+    padding: 44px 30px;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-family: 'Unlock';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40.9756px;
+    line-height: 44px;
+
+    color: #FF7420;
+}
+
+.header-nav {
+    max-width: 505px;
+    width: 100%;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+li a {
+    color: #FFFFFF;
+}
+
+.header-forms {
+    max-width: 383px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.languge-select {
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.forms-buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 194px;
+    height: 66px;
+    background-color: #FF7420;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.section-one {
+    background-image: url(../images/photo_construction-workers-surveying-site\ 1.png);
+    max-width: 1728px;
+    width: 100%;
+    height: 936px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 154px 0 0 60px;
+}
+
+.sec-one-block {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block-one-texts {}
+
+.section-two {
+    max-width: 1728px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 57px 0 57px 0;
+}
+
+.sec-two-imgs {
+    display: flex;
+}
+
+.a img {
+    max-width: 385px;
+    width: 100%;
+}
+
+body {
+    height: 3000px;
+}
